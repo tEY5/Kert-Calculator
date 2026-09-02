@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #E7F0F8, #C6D8E9);
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 0.95;
+}
+
+.container{
+    background: linear-gradient(135deg, #1e2022, #121314);
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 520px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 24px;
+}
+
+.buttons{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.scientific{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 3px;
+}

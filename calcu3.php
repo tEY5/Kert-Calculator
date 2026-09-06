@@ -45,7 +45,7 @@ case '/':
 echo $a/$b;
 break;
 } else {
- echo "";  
+ echo "please enter a valid value";  
 }
 } 
 
